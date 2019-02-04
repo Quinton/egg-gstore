@@ -13,7 +13,7 @@ script:
   - source /home/travis/google-cloud-sdk/path.bash.inc
   - gcloud version
   - gcloud components install cloud-datastore-emulator
-  - gcloud beta emulators datastore start
+  - nohup gcloud beta emulators datastore start &
   - gcloud beta emulators datastore env-init
   - echo DATASTORE_EMULATOR_HOST
 install:
