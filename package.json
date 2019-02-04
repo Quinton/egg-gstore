@@ -1,6 +1,6 @@
 {
   "name": "egg-gstore",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Egg's gstore plugin",
   "eggPlugin": {
     "name": "gstore"
@@ -11,7 +11,7 @@
     "egg-plugin"
   ],
   "dependencies": {
-    "gstore-node": "^4.3.3"
+    "gstore-node": "^5.0.0"
   },
   "devDependencies": {
     "autod": "^3.0.0",
